@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>9ffc669c-0c3a-42bd-a636-67a8614aaa3e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dapr10.ApiService\dapr10.ApiService.csproj" />
+    <ProjectReference Include="..\dapr10.Web\dapr10.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="9.9.0" />
+  </ItemGroup>
+
+</Project>
