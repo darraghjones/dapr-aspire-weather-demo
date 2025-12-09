@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapr10.Web", "dapr10.Web\da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dapr", "dapr", "{4425CD4E-59B1-4378-AC34-5ACA5AF1C198}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Users\Darragh.Jones\.dapr\config.yaml = ..\..\Users\Darragh.Jones\.dapr\config.yaml
+		config.yaml = config.yaml
 	EndProjectSection
 EndProject
 Global
